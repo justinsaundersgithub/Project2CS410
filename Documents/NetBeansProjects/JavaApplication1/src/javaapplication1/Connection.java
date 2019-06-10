@@ -9,14 +9,19 @@ package javaapplication1;
  *
  * @author jsaunders
  */
-public class MainProgram {
+public class Connection {
+    
+    private String ipAddress = this.ipAddress;
+    private int portNumber = this.portNumber;
+    
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-                
-        // TODO code application logic here
+    public Connection(String ip, int port){
+    ipAddress = ip;
+    portNumber = port;
     }
     
+    
+    
 }
+    
+
